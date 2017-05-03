@@ -256,7 +256,7 @@ void Display()
 			DrawString(GLUT_BITMAP_HELVETICA_18, "Player2 wins", 95, 185);
 		DrawString(GLUT_BITMAP_HELVETICA_18, "Do you want to continue (y/n)", 40, 210);
 	}
-	glutSwapBuffers()
+	glutSwapBuffers();
 }
 
 /*
@@ -276,7 +276,7 @@ void Reshape(int x, int y)
 */
 int main(int argc, char **argv)
 {
-	
+	printf("hello");
 	Intialize();
 	glutInit(&argc,argv);
 	glutInitDisplayMode(GLUT_RGB|GLUT_DOUBLE);
